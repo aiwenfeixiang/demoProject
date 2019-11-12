@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+</head>
+<body>
+<script src='//player.polyv.net/script/polyvplayer.min.js'></script>
+<div id='play'></div>
+<script>
+  var player = polyvObject('#play').videoPlayer({
+    'width': '600',
+    'height': '338',
+    'vid': '{{ vid }}',
+    'forceH5': true,
+    'playsafe': '{{ extra_params.token }}'
+    //取值参考文档：http://dev.polyv.net/?p=7377
+  });
+</script>
+</body>
+</html>
