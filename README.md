@@ -1,6 +1,6 @@
-# LuffyManageBackend
+# DemoProject
 
-Thank you to all the people who already contributed to luffycity's project！
+Thank you to all the people who already contributed to demoProject's project！
 
 ---
 
