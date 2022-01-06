@@ -3,7 +3,7 @@ django-ckeditor==5.5.0
 pymysql==0.7.11
 sentry-sdk==0.7.3
 requests==2.18.1
-celery==4.2.2
+celery==5.2.2
 django-celery-beat==1.5.0
 pillow==6.2.0
 pyjwt==1.7.1
